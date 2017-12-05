@@ -9,6 +9,7 @@ Puedes adaptar el diseño como mejor te parezca, pero no tardes mucho definiendo
 
 ## Maquetar proyecto
 
+![maqueta Twitter](assets/images/twitter.png)
 
 ## Crear HTML
 
