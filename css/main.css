@@ -1,0 +1,120 @@
+/*estilo al body*/
+body { 
+  margin: 0;
+}
+
+/*estilo al header*/
+header {
+  background: #6ad2f3;
+  height: 50px;
+  margin-top: 0;
+  }
+/*Estilo a tiulo de la pagina*/
+h1 {
+  color: white;
+  font-family:monospace;
+  margin-top: 0;
+  text-align: center;
+  }
+
+/*imagen de fondo*/
+main {
+  background-image: url(../assets/images/fondo_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  margin: 0;
+}
+
+/*caja de la derecha: Hola,soy front-end..*/
+.box-left {
+  background: white;
+  display: inline-block;
+  font-family:monospace;
+  height: 30%;
+  margin: 1% 6%;
+  padding-left: 20px;
+  width: 40%;
+}
+/*Primer renglon del contenido de la caja derecha*/
+.box-left :nth-child(1){
+  font-size: 15px;
+  padding-top: 20px;
+}
+/*Cuarto renglon del contenido de la caja derecha*/
+.box-left :nth-child(4){
+  color:#0080ff;
+  padding-top: 30px;
+}
+
+/*estilo a caja de la izquierda que contiene textArea*/
+#myForm {
+  background: white;
+  display: inline-block;
+  height: 30%;
+  margin-top: 1%;
+  vertical-align: top;
+  width: 40%;
+}
+
+/*estilo al textArea*/
+#text {
+  height: 70%;
+  border: none;
+  font-family:monospace;
+  margin-bottom: 0;
+  outline: none;
+  width: 99%;
+  align-content: center;
+  text-align: justify;
+  resize: none;
+}
+
+/*estilo al hr dentro del form*/
+hr {
+  margin-top: 0;
+}
+
+/*estilo al boton Tweet*/
+#button {
+  background: #6ad2f3;
+  color: white;
+  font-family: cursive;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 0px;
+  width: 90px;
+}
+
+/*estilo al mensaje añadido debajo este se creo en el js*/
+.message {
+  background: white;
+  border-radius: 5px;
+  display: block;
+  font-family:monospace;
+  margin: 2% 6%;
+  padding: 3px;
+  width: 80%;
+  text-align: justify;
+  align-content:flex-end;
+  box-sizing: content-box;
+  font-size: 20px;
+}
+
+.container {
+  width:80%;
+}
+
+/*estilo al contador de caracteres*/
+#contador {
+  color:black;
+  display: inline-block;
+  float: right;
+  height: 25px;
+  margin-right: 20px;
+  width: 30px;
+}
+
+.scroll::-webkit-scrollbar {
+   display: none;
+ }
